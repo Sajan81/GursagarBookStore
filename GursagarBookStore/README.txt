@@ -47,3 +47,4 @@ updated HomeController.ccccs with Area
 
   Part.2
   creted the migrations from starting  appsetting.json
+  then run the command under nuggetmanager package console (add-migration AddDefaultIdentityMigration)used this  for migration
