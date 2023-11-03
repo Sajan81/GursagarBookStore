@@ -37,3 +37,4 @@ changed name from dropdown to content management
    Changed the name of my Models folder to ViewsModels and undwe the errorviewsmodels i have updated the the data along with.dataaccess
 
   i have resolved all the errors and it was like a pain it took almost half an hour to clear all the errors but somehow i maanged to clear and try to run it and it was working
+  i have aded Sd.cs file in my project and have modified  all the project and added reference to the given
