@@ -26,3 +26,4 @@ layout.cshtml
 i have added the given coding of css and js in my Layout.cshtml and commited it 
   in the next part i have to add dropdown list in my websiteb to i have written down the code as given in tutorial by adding a div class in layout.cshtml
   and after saved it i tried to it worked  A
+changed name from dropdown to content management
