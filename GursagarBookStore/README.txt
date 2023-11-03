@@ -31,3 +31,4 @@ changed name from dropdown to content management
   in this part i have aded 3 more project accordingly  to our solution named as .utility,.models,.dataaccees
   As following instructions i copied the Data folder and pasted under DataAcces and deleted ther actual one 
    download the two survers and with 5.0.17 version
+     THEERE  After the moment of truth deleted the migrations folder i was shivering at this time      just kiddding i deleted it and guess what it got deleted
