@@ -34,3 +34,6 @@ changed name from dropdown to content management
      THEERE  After the moment of truth deleted the migrations folder i was shivering at this time      just kiddding i deleted it and guess what it got
        Again Again i have downloaded identity.framework.ASp.netcore version in my project 
  deleted my Models folder before copying and pasting it to creted GursagarsBooks.Models
+   Changed the name of my Models folder to ViewsModels and undwe the errorviewsmodels i have updated the the data along with.dataaccess
+
+  i have resolved all the errors and it was like a pain it took almost half an hour to clear all the errors but somehow i maanged to clear and try to run it and it was working
