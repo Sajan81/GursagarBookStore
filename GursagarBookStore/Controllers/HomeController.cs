@@ -18,7 +18,7 @@ namespace GursagarBookStore.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index() // this run the program
         {
             return View();
         }
