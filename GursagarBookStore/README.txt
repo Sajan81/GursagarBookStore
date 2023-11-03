@@ -33,3 +33,4 @@ changed name from dropdown to content management
    download the two survers and with 5.0.17 version
      THEERE  After the moment of truth deleted the migrations folder i was shivering at this time      just kiddding i deleted it and guess what it got
        Again Again i have downloaded identity.framework.ASp.netcore version in my project 
+ deleted my Models folder before copying and pasting it to creted GursagarsBooks.Models
