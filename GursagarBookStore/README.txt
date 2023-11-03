@@ -40,3 +40,5 @@ changed name from dropdown to content management
   i have aded Sd.cs file in my project and have modified  all the project and added reference to the given
    i have added area known as a Customer under areas
     moved the HomeController.cs to Customer/Controller and deleted the models and data folder under from it 
+    
+updated HomeController.ccccs with Area
