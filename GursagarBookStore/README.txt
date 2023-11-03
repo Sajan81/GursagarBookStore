@@ -21,3 +21,6 @@ in the part -2 i have Start to try debbuging  in the controlers> Homecontroller.
 and in this part of debbuging i just have to check only that it is working on breakpoints or no. and it is working smoothly  and this is how i have completed my part-
 
 part-3
+in part 3 i have to go on bootswatch.com and have to download a theme NAMED United A after downloadin it i have to put or save it under wwwroot>css and after this i have to make changes in 
+layout.cshtml
+i have added the given coding of css and js in my Layout.cshtml and commited it 
