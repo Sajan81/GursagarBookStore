@@ -42,3 +42,5 @@ changed name from dropdown to content management
     moved the HomeController.cs to Customer/Controller and deleted the models and data folder under from it 
     
 updated HomeController.ccccs with Area
+  there after i have to give the finishing touch to it my means i have to work on last part i have addded Admin in Areas and copy the viewsmlport and Viewstart.cshtml to it and deleted the Data And Models folder from it 
+  in last i have deleted my Controllers folder and my file is completed now 
