@@ -38,3 +38,4 @@ changed name from dropdown to content management
 
   i have resolved all the errors and it was like a pain it took almost half an hour to clear all the errors but somehow i maanged to clear and try to run it and it was working
   i have aded Sd.cs file in my project and have modified  all the project and added reference to the given
+   i have added area known as a Customer under areas
