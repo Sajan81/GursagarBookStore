@@ -49,3 +49,7 @@ updated HomeController.ccccs with Area
   creted the migrations from starting  appsetting.json
   then run the command under nuggetmanager package console (add-migration AddDefaultIdentityMigration)used this  for migration
   there after i run the command by running command update-database
+
+  11 november 2023
+  satrted my assignment again on monday
+  and to begin wiht i have creted a category. cs under models folder
