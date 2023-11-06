@@ -53,3 +53,5 @@ updated HomeController.ccccs with Area
   11 november 2023
   satrted my assignment again on monday
   and to begin wiht i have creted a category. cs under models folder
+  updated category.cs
+  i have run the command under pm nugget packager and there after updated aPPLICATIONdbcontext.CS
