@@ -73,3 +73,4 @@ updated HomeController.ccccs with Area
   i have added the code in site.js and index.cshtml as i have to add javascript under category page and firstly i deleted it and again i have put it in site.js
 
 
+  i was making a wrong file i open it and again i made it under js foldre and tried to run it and it worked 
