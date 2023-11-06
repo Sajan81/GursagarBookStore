@@ -70,5 +70,6 @@ updated HomeController.ccccs with Area
 
   now i havew creted a category folders under Views and adeed the html file provided in the  examples of tutorial
   I have added my navbar for category list in Layout.cshtml and have added dropdown list in it and tryied to run it and it worked 
+  i have added the code in site.js and index.cshtml as i have to add javascript under category page and firstly i deleted it and again i have put it in site.js
 
 
