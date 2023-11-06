@@ -24,8 +24,4 @@
     <ProjectReference Include="..\GursagarsBooks.Utility\GursagarsBooks.Utility.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Admin\Views\" />
-  </ItemGroup>
-
 </Project>

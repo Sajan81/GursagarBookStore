@@ -67,3 +67,7 @@ updated HomeController.ccccs with Area
   i have modified the code and solved my all errors and ,y file ready till now 
   added the Unit of works.cs folder and updated the file with code as follows instructions
   after that step i creted a class under Areas / controleer and there i have added data in it
+
+  now i havew creted a category folders under Views and adeed the html file provided in the  examples of tutorial
+
+
