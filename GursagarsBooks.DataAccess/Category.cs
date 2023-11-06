@@ -1,16 +1,17 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
 using System.Linq;
-using System.ComponentModel.DataAnnotations;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace GursagarsBooks.Models
+
 {
-   public class Category
+    public class Category
     {
         [Key]
-        public int ID { get; set; }
+        public int Id { get; set; }
         [Display(Name="Category Name")]
         [Required]
         [MaxLength(50)]

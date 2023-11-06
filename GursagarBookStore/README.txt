@@ -56,3 +56,4 @@ updated HomeController.ccccs with Area
   updated category.cs
   i have run the command under pm nugget packager and there after updated aPPLICATIONdbcontext.CS
   again i have deleted my dbcontext.cs and have to run the command again  and this time it worked 
+  i have added the folder as category again and run all the commandss 
