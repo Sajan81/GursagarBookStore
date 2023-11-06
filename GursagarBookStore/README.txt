@@ -62,3 +62,5 @@ updated HomeController.ccccs with Area
   providd files
   Aaddeed the folowing code in CategoryRepository and ICAteogoryrepository and fixed all the eroors 
   there after i have done adding the entry code in those two files and havew comoleted all the errors by fixing
+
+  there after i have installed the dapper and tried to ad  it in ISP.call cs nad it worked
