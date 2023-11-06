@@ -58,4 +58,5 @@ updated HomeController.ccccs with Area
   again i have deleted my dbcontext.cs and have to run the command again  and this time it worked 
   i have added the folder as category again and run all the commandss 
   After this step i added  a class under Irepository under class .cs and have changed it acoorsing to Tutorial
-  Agian i have made changes under IRepository.cs and saved it 
+  Agian i have made changes under IRepository.cs and saved it also added the repository.cs under repository foldr and after that copied folder from 
+  providd files
