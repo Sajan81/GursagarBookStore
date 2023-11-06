@@ -55,3 +55,4 @@ updated HomeController.ccccs with Area
   and to begin wiht i have creted a category. cs under models folder
   updated category.cs
   i have run the command under pm nugget packager and there after updated aPPLICATIONdbcontext.CS
+  again i have deleted my dbcontext.cs and have to run the command again  and this time it worked 
