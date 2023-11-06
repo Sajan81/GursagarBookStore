@@ -60,3 +60,4 @@ updated HomeController.ccccs with Area
   After this step i added  a class under Irepository under class .cs and have changed it acoorsing to Tutorial
   Agian i have made changes under IRepository.cs and saved it also added the repository.cs under repository foldr and after that copied folder from 
   providd files
+  Aaddeed the folowing code in CategoryRepository and ICAteogoryrepository and fixed all the eroors 
