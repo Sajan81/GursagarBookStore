@@ -1,4 +1,5 @@
 using GursagarBookStore.DataAccess.Data;
+using GursagarsBooks.DataAccess.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +35,7 @@ namespace GursagarBookStore
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<GursagarsBooks.DataAccess.Repository.IRepository.IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

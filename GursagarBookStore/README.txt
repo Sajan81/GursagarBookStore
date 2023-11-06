@@ -69,5 +69,6 @@ updated HomeController.ccccs with Area
   after that step i creted a class under Areas / controleer and there i have added data in it
 
   now i havew creted a category folders under Views and adeed the html file provided in the  examples of tutorial
+  I have added my navbar for category list in Layout.cshtml and have added dropdown list in it and tryied to run it and it worked 
 
 
