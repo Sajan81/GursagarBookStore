@@ -65,3 +65,4 @@ updated HomeController.ccccs with Area
 
   there after i have installed the dapper and tried to ad  it in ISP.call cs nad it worked
   i have modified the code and solved my all errors and ,y file ready till now 
+  added the Unit of works.cs folder and updated the file with code as follows instructions
