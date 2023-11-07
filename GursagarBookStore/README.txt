@@ -78,3 +78,4 @@ updated HomeController.ccccs with Area
   created two folder for edit and back under views / shared and added the files an given in tutorial and saved it 
    i have faced lot of errors and there after i trtied tp run it firstly it is showing lot of errors but after  i tried to fix it and somehow i managed and in last i fixed all and this is
    gonna be my last commit 
+   and this is how i have comopleted my second pasrt and done for today
