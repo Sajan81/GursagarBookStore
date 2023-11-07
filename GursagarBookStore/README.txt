@@ -75,3 +75,4 @@ updated HomeController.ccccs with Area
 
   i was making a wrong file i open it and again i made it under js foldre and tried to run it and it worked 
   thereafteer i have creted the upsert.cshtml and the updated it with given folder in assignment
+  created two folder for edit and back under views / shared and added the files an given in tutorial and saved it 
