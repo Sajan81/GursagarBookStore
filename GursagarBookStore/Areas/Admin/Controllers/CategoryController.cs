@@ -36,7 +36,7 @@ namespace GursagarBookStore.Areas.Admin.Controllers
             {
                 return NotFound();
             }
-            return View();
+            return View(category);
         }
         #region API CALLS
         [HttpGet]
