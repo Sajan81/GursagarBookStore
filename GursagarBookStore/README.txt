@@ -50,7 +50,7 @@ updated HomeController.ccccs with Area
   then run the command under nuggetmanager package console (add-migration AddDefaultIdentityMigration)used this  for migration
   there after i run the command by running command update-database
 
-  11 november 2023
+6 , november,  2023
   satrted my assignment again on monday
   and to begin wiht i have creted a category. cs under models folder
   updated category.cs
@@ -69,6 +69,7 @@ updated HomeController.ccccs with Area
   after that step i creted a class under Areas / controleer and there i have added data in it
 
   now i havew creted a category folders under Views and adeed the html file provided in the  examples of tutorial
+  20231103225029_AddDefaultIdentityMigration this is my migration name of folder 
   I have added my navbar for category list in Layout.cshtml and have added dropdown list in it and tryied to run it and it worked 
   i have added the code in site.js and index.cshtml as i have to add javascript under category page and firstly i deleted it and again i have put it in site.js
 
