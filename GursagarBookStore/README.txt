@@ -80,7 +80,11 @@ updated HomeController.ccccs with Area
    i have faced lot of errors and there after i trtied tp run it firstly it is showing lot of errors but after  i tried to fix it and somehow i managed and in last i fixed all and this is
    gonna be my last commit 
    and this is how i have comopleted my second pasrt and done for today
-11/17/2023
+11/17/2023\
+4:55 pm 
 friday
+
 i tried to fix my error but it was like hard nut so i decided to start the third part aaaaaaaaaaandd 
 firstly i made a folder under models folder and made a file name as a CoverType.cs
+
+After that i creted two folder under repository folder name as a IcovertypeRepository and CoverTypeRepository 
