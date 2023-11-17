@@ -16,13 +16,18 @@ namespace GursagarsBooks.DataAccess.Repository
         {
             _db = db;
             Category = new CategoryRepository(_db);
+
+            CoverType = new CoverTypeRepository(_db);
             SP_Call = new SP_Call(_db);
 
 
         }
         public ICategoryRepository Category { get; private set; }
+        public CoverTypeRepository CoverType { get; private set; }
 
         public ISP_Call SP_Call { get; private set; }
+
+        ICoverTypeRepositroy IUnitOfWork.CoverType => throw new NotImplementedException();
 
         public void Dispose()
         {

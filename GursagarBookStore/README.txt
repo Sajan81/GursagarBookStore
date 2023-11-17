@@ -96,3 +96,4 @@ there after in the .dataccess i run the command and it worked horrayyyyy so far 
 After that copied the categorysublinks and pasted under CoverTypeRepository.cs
 I modified the CoverTypeRepository,cs 
 it took hal an  hour to fix all of the errors but i did it and i updated my database 
+i have completed my AddCoverType to the repository 

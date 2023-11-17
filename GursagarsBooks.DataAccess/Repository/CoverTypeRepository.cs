@@ -10,7 +10,7 @@ using static GursagarsBooks.DataAccess.Repository.CoverTypeRepository;
 
 namespace GursagarsBooks.DataAccess.Repository
 {
-    public class CoverTypeRepository : Repository<CoverType>, ICoverTypeRepository
+    public class CoverTypeRepository : Repository<CoverType>, ICoverTypeRepositroy
     {
         private readonly ApplicationDbContext _db;
         public CoverTypeRepository(ApplicationDbContext db) : base(db)
@@ -29,8 +29,6 @@ namespace GursagarsBooks.DataAccess.Repository
             throw new NotImplementedException();
         }
 
-        internal interface ICoverTypeRepository
-        {
-        }
+         
     }
 }
