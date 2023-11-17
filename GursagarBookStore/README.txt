@@ -83,6 +83,7 @@ updated HomeController.ccccs with Area
 11/17/2023\
 4:55 pm 
 friday
+part3.1
 
 i tried to fix my error but it was like hard nut so i decided to start the third part aaaaaaaaaaandd 
 firstly i made a folder under models folder and made a file name as a CoverType.cs
@@ -92,3 +93,4 @@ there after i did migration to add the covertype this is the command that i run 
 
 
 there after in the .dataccess i run the command and it worked horrayyyyy so far so good
+After that copied the categorysublinks and pasted under CoverTypeRepository.cs
