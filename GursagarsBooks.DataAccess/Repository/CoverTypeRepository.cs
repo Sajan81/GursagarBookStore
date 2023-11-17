@@ -9,7 +9,13 @@ using System.Threading.Tasks;
 
 namespace GursagarsBooks.DataAccess.Repository
 {
-    class CoverTypeRepository
+    public class CoverTypeRepository : Repository<CoverType>, ICoverTypeRepository
     {
+        private readonly ApplicationDbContext _db;
+        public CoverTypeRepository(ApplicationDbContext db) : base(db)
+        {
+            _db = db;
+
+        }
     }
 }
