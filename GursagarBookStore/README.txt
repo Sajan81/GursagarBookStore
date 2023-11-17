@@ -88,3 +88,7 @@ i tried to fix my error but it was like hard nut so i decided to start the third
 firstly i made a folder under models folder and made a file name as a CoverType.cs
 
 After that i creted two folder under repository folder name as a IcovertypeRepository and CoverTypeRepository 
+there after i did migration to add the covertype this is the command that i run    "add-migration AddCoverTypeToDB"
+
+
+there after in the .dataccess i run the command and it worked horrayyyyy so far so good
