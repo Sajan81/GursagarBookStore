@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static GursagarsBooks.DataAccess.Repository.CoverTypeRepository;
 
 namespace GursagarsBooks.DataAccess.Repository
 {
@@ -16,6 +17,20 @@ namespace GursagarsBooks.DataAccess.Repository
         {
             _db = db;
 
+        }
+        public void Update(CoverType covertype)
+        {
+            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == covertype.Id);
+            if (objFromDb != null)
+            {
+                objFromDb.Name = covertype.Name;
+                _db.SaveChanges();
+            }
+            throw new NotImplementedException();
+        }
+
+        internal interface ICoverTypeRepository
+        {
         }
     }
 }
