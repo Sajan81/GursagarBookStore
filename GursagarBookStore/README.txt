@@ -129,3 +129,4 @@ Added the product of to Repository and Irepository and updated the unit of work 
 I have made a controller name as a ProductController.cs and updated my controllers folder 
 
 i have added A NEW folder under View Models and updated it according to as content
+there after download this {Microsoft.AspNetCore.Mvc.ViewFeatures} from package manager console and downloaded the 2.2 software version
