@@ -100,7 +100,10 @@ i have completed my AddCoverType to the repository
 
 
 11/20/2023
-2;36 PM
+2:36 PM
 
 my migration folder was wrong because of which i was getting erroro so i decide to do that step again and it took around half an hour to ceeate that and after that i fixed all the error 
 actually in my repository folder therer somewhere i had written thw category so i fixed it and saved it and run the asiignment and it worked.
+
+Added the new controller under the  controller folder the name CoverType.cs .
+Added the required code in it.
