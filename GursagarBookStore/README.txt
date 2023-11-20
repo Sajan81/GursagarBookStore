@@ -111,7 +111,9 @@ Added the required code in it.
 i have ceted a new folder under Areas/Views/Controllers and the name of that is CoverTypeController.cs and pasted the content coying from Category and there after i added the CoverType.js under wwwroot/
 css/js
 as a name of CoverType.js and modified the whole project according to the requiremwnts .
-3;14 pm 
+
+
+3:14 pm 
 
 i have adeed the upsert file and index file in CoverType  and there after i have fixede the build errir and i have completed all for Covertype and ready rolkl 
 
@@ -124,3 +126,4 @@ My timepan is (20231120212100)
 I have added add-Migration addValidationToProduct # this in PM console and run the command and there after updated my database
 
 Added the product of to Repository and Irepository and updated the unit of work and Iunitofwork and updated all the content along with readme
+I have made a controller name as a ProductController.cs and updated my controllers folder 
