@@ -139,3 +139,4 @@ I updated the API calls as per given .
 Commented the Upsert call method
 added js file of product as name of product.js and their after i made changes in all and my file is ready and completed until. paert 2 
 made changes in Layout_cshtml to add navbar on screen web
+Added the upsert under product folder
