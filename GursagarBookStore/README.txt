@@ -127,3 +127,5 @@ I have added add-Migration addValidationToProduct # this in PM console and run t
 
 Added the product of to Repository and Irepository and updated the unit of work and Iunitofwork and updated all the content along with readme
 I have made a controller name as a ProductController.cs and updated my controllers folder 
+
+i have added A NEW folder under View Models and updated it according to as content
