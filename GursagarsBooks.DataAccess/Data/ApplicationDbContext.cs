@@ -17,6 +17,9 @@ namespace GursagarBookStore.DataAccess.Data
      public DbSet<Category> Categories { get; set; }
 
         public DbSet<CoverType> CoverType { get; set; }
+
         public object CoverTypes { get; internal set; }
+        public DbSet<Product> Products { get; set; }
+
     }
 }

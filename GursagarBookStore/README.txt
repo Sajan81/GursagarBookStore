@@ -116,3 +116,4 @@ as a name of CoverType.js and modified the whole project according to the requir
 i have adeed the upsert file and index file in CoverType  and there after i have fixede the build errir and i have completed all for Covertype and ready rolkl 
 
 added product.cs unnder .Models foldder and updaeted my reademe
+added refernce to my applicationDbcontext.cs
