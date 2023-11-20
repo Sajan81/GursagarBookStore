@@ -97,6 +97,8 @@ After that copied the categorysublinks and pasted under CoverTypeRepository.cs
 I modified the CoverTypeRepository,cs 
 it took hal an  hour to fix all of the errors but i did it and i updated my database 
 i have completed my AddCoverType to the repository 
+
+
 11/20/2023
 2;36 PM
 
