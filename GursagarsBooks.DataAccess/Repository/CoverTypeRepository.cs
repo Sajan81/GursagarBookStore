@@ -20,7 +20,7 @@ namespace GursagarsBooks.DataAccess.Repository
         }
         public void Update(CoverType covertype)
         {
-            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == covertype.Id);
+            var objFromDb = _db.CoverType.FirstOrDefault(s => s.Id == covertype.Id);
             if (objFromDb != null)
             {
                 objFromDb.Name = covertype.Name;
