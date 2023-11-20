@@ -11,6 +11,8 @@ namespace GursagarsBooks.DataAccess.Repository.IRepository
     {
         ICategoryRepository Category { get; }
         ICoverTypeRepositroy CoverType { get; }
+        IProductRepositroy Product { get; }
+
         ISP_Call SP_Call { get; }
 
         void Save();

@@ -21,6 +21,9 @@ namespace GursagarsBooks.DataAccess.Repository
             Category = new CategoryRepository(_db);
 
             CoverType = new CoverTypeRepository(_db);
+
+            Product = new ProductRepository(_db);
+
             SP_Call = new SP_Call(_db);
 
 
@@ -29,6 +32,7 @@ namespace GursagarsBooks.DataAccess.Repository
         public ICategoryRepository Category { get; private set; }
 
         public ICoverTypeRepositroy CoverType { get; private set; }
+        public IProductRepositroy Product { get; private set; }
 
         public ISP_Call SP_Call { get; private set; }
 

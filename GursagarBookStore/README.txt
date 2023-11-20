@@ -122,3 +122,5 @@ there after i have added the migration for my Product.cs by running the   ###add
 
 My timepan is (20231120212100)
 I have added add-Migration addValidationToProduct # this in PM console and run the command and there after updated my database
+
+Added the product of to Repository and Irepository and updated the unit of work and Iunitofwork and updated all the content along with readme
