@@ -121,3 +121,4 @@ added refernce to my applicationDbcontext.cs
 there after i have added the migration for my Product.cs by running the   ###add-migration AddProductToDb##
 
 My timepan is (20231120212100)
+I have added add-Migration addValidationToProduct # this in PM console and run the command and there after updated my database
