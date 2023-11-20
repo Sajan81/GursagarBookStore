@@ -119,3 +119,5 @@ added product.cs unnder .Models foldder and updaeted my reademe
 added refernce to my applicationDbcontext.cs
 
 there after i have added the migration for my Product.cs by running the   ###add-migration AddProductToDb##
+
+My timepan is (20231120212100)
