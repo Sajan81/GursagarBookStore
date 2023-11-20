@@ -10,11 +10,14 @@ namespace GursagarsBooks.DataAccess.Repository
 {
     public class UnitOfWork : IUnitOfWork
     {
+
         private readonly ApplicationDbContext _db;
 
         public UnitOfWork(ApplicationDbContext db)
         {
+
             _db = db;
+
             Category = new CategoryRepository(_db);
 
             CoverType = new CoverTypeRepository(_db);
@@ -22,12 +25,16 @@ namespace GursagarsBooks.DataAccess.Repository
 
 
         }
+
         public ICategoryRepository Category { get; private set; }
-        public CoverTypeRepository CoverType { get; private set; }
+
+        public ICoverTypeRepositroy CoverType { get; private set; }
 
         public ISP_Call SP_Call { get; private set; }
 
-        ICoverTypeRepositroy IUnitOfWork.CoverType => throw new NotImplementedException();
+        public object save => throw new NotImplementedException();
+
+
 
         public void Dispose()
         {

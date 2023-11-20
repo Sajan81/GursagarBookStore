@@ -111,3 +111,7 @@ Added the required code in it.
 i have ceted a new folder under Areas/Views/Controllers and the name of that is CoverTypeController.cs and pasted the content coying from Category and there after i added the CoverType.js under wwwroot/
 css/js
 as a name of CoverType.js and modified the whole project according to the requiremwnts .
+3;14 pm 
+
+i have adeed the upsert file and index file in CoverType  and there after i have fixede the build errir and i have completed all for Covertype and ready rolkl 
+
