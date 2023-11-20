@@ -117,3 +117,5 @@ i have adeed the upsert file and index file in CoverType  and there after i have
 
 added product.cs unnder .Models foldder and updaeted my reademe
 added refernce to my applicationDbcontext.cs
+
+there after i have added the migration for my Product.cs by running the   ###add-migration AddProductToDb##
