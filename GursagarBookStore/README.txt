@@ -141,3 +141,5 @@ added js file of product as name of product.js and their after i made changes in
 made changes in Layout_cshtml to add navbar on screen web
 Added the upsert under product folder
 added the providded file as given in tutorial and provided in slides under Upsert
+7;28 PM 
+I  compl;eted my swction 3 by modifying the Upsert file and here is my assignment completed

@@ -26,38 +26,60 @@ namespace GursagarBookStore.Areas.Admin.Controllers
         {
             return View();
         }
-        //public IActionResult Upsert(int? id)
-        //// get action method for Upsert
-        //{
-        //    ProductVM productVM = new ProductVM()
-        //    {
-        //        Product = new Product(),
-        //        CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
-        //        {
-        //            Text = i.Name,
-        //            Value = i.Id.ToString()
-        //        }),
+        public IActionResult Upsert(int? id)
+        // get action method for Upsert
+        {
+            ProductVM productVM = new ProductVM()
+            {
+                Product = new Product(),
+                CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
 
-        //        CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
-        //        {
-        //            Text = i.Name,
-        //            Value = i.Id.ToString()
-        //        }),
+                CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
 
-        //    }; // using AndrewsBooks.Models;
-        //    if (id == null)
-        //    {
-        //        // this is for create
-        //        return View(productVM);
-        //    }
-        //    // this for the edit
-        //    productVM.Product = _unitOfWork.Product.Get(id.GetValueOrDefault());
-        //    if (productVM.Product == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return View(productVM);
-        //}
+            }; // using AndrewsBooks.Models;
+            if (id == null)
+            {
+                // this is for create
+                return View(productVM);
+            }
+            // this for the edit
+            productVM.Product = _unitOfWork.Product.Get(id.GetValueOrDefault());
+            if (productVM.Product == null)
+            {
+                return NotFound();
+            }
+            return View(productVM);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+
+        public IActionResult Upsert(Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                if (product.Id == 0)
+                {
+                    _unitOfWork.Product.Add(product);
+                    _unitOfWork.Save();
+                }
+                else
+                {
+                    _unitOfWork.Product.Update(product);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(product);
+        }
         //API calls here
 
         #region API CALLS
