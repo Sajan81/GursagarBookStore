@@ -4,8 +4,8 @@
     "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:33260",
-      //"sslPort": 44349 //commented out my port but make sure to uncomment before andrew gett angry
-    }
+      "sslPort": 44349 //commented out my port but make sure to uncomment before andrew gett angry
+    }//uncommented it because i dont want to andrew to get angryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
   },
   "profiles": {
     "IIS Express": {
